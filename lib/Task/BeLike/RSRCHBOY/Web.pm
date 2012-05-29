@@ -9,7 +9,7 @@
 #
 package Task::BeLike::RSRCHBOY::Web;
 {
-  $Task::BeLike::RSRCHBOY::Web::VERSION = '0.001';
+  $Task::BeLike::RSRCHBOY::Web::VERSION = '0.002';
 }
 
 # ABSTRACT: Web-related modules RSRCHBOY uses!
@@ -26,7 +26,7 @@ Task::BeLike::RSRCHBOY::Web - Web-related modules RSRCHBOY uses!
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 DESCRIPTION
 
@@ -60,6 +60,8 @@ footprint on machines where these are not needed.
 
 =head3 L<Catalyst::Plugin::AutoCRUD> 1.112560
 
+=head3 L<Catalyst::Plugin::RedirectAndDetach>
+
 =head3 L<Catalyst::Plugin::Session>
 
 =head3 L<Catalyst::Plugin::Session::State::Cookie>
@@ -76,6 +78,10 @@ footprint on machines where these are not needed.
 
 =head3 L<Catalyst::View::TT>
 
+=head3 L<Catalyst::View::Haml>
+
+=head3 L<MooseX::MethodAttributes::Role>
+
 =head2 Dancer
 
 =head3 L<Dancer>
@@ -85,6 +91,8 @@ footprint on machines where these are not needed.
 =head3 L<Plack>
 
 =head3 L<Plack::Middleware::Debug>
+
+=head3 L<Plack::Middleware::MethodOverride> 0.10
 
 =head3 L<Plack::Middleware::SetAccept>
 
@@ -102,7 +110,7 @@ footprint on machines where these are not needed.
 
 =head3 L<Text::Haml>
 
-=head3 L<Template::Toolkit>
+=head3 L<Template>
 
 =head3 L<Template::Plugin::JSON::Escape>
 

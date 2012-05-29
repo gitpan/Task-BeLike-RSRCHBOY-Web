@@ -2,7 +2,7 @@ NAME
     Task::BeLike::RSRCHBOY::Web - Web-related modules RSRCHBOY uses!
 
 VERSION
-    version 0.001
+    version 0.002
 
 DESCRIPTION
     This is a task package cataloging the web-related modules I often use.
@@ -22,6 +22,7 @@ TASK CONTENTS
    Catalyst::Plugin::Authorization::ACL
    Catalyst::Plugin::Authorization::Roles
    Catalyst::Plugin::AutoCRUD 1.112560
+   Catalyst::Plugin::RedirectAndDetach
    Catalyst::Plugin::Session
    Catalyst::Plugin::Session::State::Cookie
    Catalyst::Plugin::Session::Store::File
@@ -30,11 +31,14 @@ TASK CONTENTS
    Catalyst::Controller::REST
    Catalyst::Model::DBIC::Schema 0.59
    Catalyst::View::TT
+   Catalyst::View::Haml
+   MooseX::MethodAttributes::Role
   Dancer
    Dancer
   Plack / PSGI
    Plack
    Plack::Middleware::Debug
+   Plack::Middleware::MethodOverride 0.10
    Plack::Middleware::SetAccept
    Starlet
    Starman
@@ -43,7 +47,7 @@ TASK CONTENTS
   Templating / etc
    HTML::Builder 0.006
    Text::Haml
-   Template::Toolkit
+   Template
    Template::Plugin::JSON::Escape
 AUTHOR
     Chris Weyl <cweyl@alumni.drew.edu>
